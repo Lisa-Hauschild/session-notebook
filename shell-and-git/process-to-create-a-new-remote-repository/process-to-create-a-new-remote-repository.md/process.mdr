@@ -1,0 +1,10 @@
+turn a folder into a git repository with the command git init.
+
+Create a new empty remote repository with the same name in your Github account.
+Copy the SSH repository address, e.g., git@github.com:<your-github-name>/
+
+ and add it as the remote repository "origin" to our local repository (a repository can be linked to multiple remote repositories, so we need to give them nicknames to distinguish them; "origin" is the standard name for the main remote repository):
+ Check if the remote repository was successfully linked with the command:
+git remote -v
+
+Use git add <challenge folder name> to stage the changes from this challenge.
